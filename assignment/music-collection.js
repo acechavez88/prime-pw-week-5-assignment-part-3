@@ -28,3 +28,10 @@ const boyeatsworld = {
   yearPublished: 2020,
   album: '1+1 = Love',
 };
+collection.push(godmadedirt); //attempting to push object to array..
+console.log(collection);
+collection.push(shedidmedirty); //attempting to push object to array..
+console.log(collection);
+collection.push(boyeatsworld); //attempting to push object to array..
+console.log(collection);
+// console log reads [{...}].. with list of artists when expanded..
