@@ -18,8 +18,6 @@ console.log(addToCollection('Drink my sorrows','Red man group', 2020));
 console.log(addToCollection('What them hands do','Dillary Huff', 2006));
 console.log(addToCollection('Say it to my face','Cher', 2012));
 
-collection.push(godmadedirt, shedidmedirty, boyeatsworld, sayitdontsprayit, litterbug,stonecoldsaidso);
-console.log(collection);
 
 const godmadedirt = {
   title: 'You and me and her and her',
@@ -53,3 +51,6 @@ const stonecoldsaidso = {
   artist: 'Cher',
   yearPublished: 2012,
 };
+
+collection.push(godmadedirt, shedidmedirty, boyeatsworld, sayitdontsprayit, litterbug,stonecoldsaidso);
+console.log(collection); // moved push after executing objects.. hope it works..
