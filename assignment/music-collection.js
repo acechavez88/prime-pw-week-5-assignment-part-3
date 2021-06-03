@@ -8,6 +8,7 @@ const texaasLive = {
   artist:' Texas man',
   yearPublished: 2012,
 };
+texaasLive.title;
 
 const godmadedirt = {
   title: 'You and me and her and her',
@@ -44,4 +45,15 @@ const stonecoldsaidso = {
 
 collection.push(texaasLive, godmadedirt, shedidmedirty, boyeatsworld, sayitdontsprayit, litterbug,stonecoldsaidso);
 console.log(collection); // moved push after executing objects.. hope it works..
-// notes.. still do not see a album output in the console at this time.. 
+// notes.. still do not see a album output in the console at this time..
+for (props in texaasLive,godmadedirt){
+  console.log(texaasLive,godmadedirt[props]);
+}
+function showCollection(){
+
+}
+
+function findByArtist(artist){
+  let array = []
+
+}
