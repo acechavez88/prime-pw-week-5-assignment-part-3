@@ -1,6 +1,6 @@
 let collection = [];
 function addToCollection(title, artist, yearPublished){
-  return `${title,artist,yearPublished}`;
+  return `${title + artist + yearPublished}`;
 };
 console.log(addToCollection('you me and her and her','Texas Man', 2012));
 console.log(addToCollection('I cant not stop lovin You','Texas Man', 2012));
