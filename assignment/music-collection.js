@@ -1,13 +1,7 @@
 let collection = [];
 function addToCollection(title, artist, yearPublished){
-  return `${title + artist + yearPublished}`;
+  return `${title + artist + yearPublished}`; // should return with title, art.,year..
 };
-console.log(addToCollection('you me and her and her','Texas Man', 2012));
-console.log(addToCollection('I cant not stop lovin You','Texas Man', 2012));
-console.log(addToCollection('Sammy is dead','Dude, your a girl', 2012));
-console.log(addToCollection('Drink my sorrows','Red man group', 2020));
-console.log(addToCollection('What them hands do','Dillary Huff', 2006));
-console.log(addToCollection('Say it to my face','Cher', 2012));
 
 const texaasLive = {
   title : 'boot scoot boogie',// created pseudo music info to test.
@@ -48,5 +42,6 @@ const stonecoldsaidso = {
   yearPublished: 2012,
 };
 
-collection.push(texaasLive,godmadedirt, shedidmedirty, boyeatsworld, sayitdontsprayit, litterbug,stonecoldsaidso);
+collection.push(texaasLive, godmadedirt, shedidmedirty, boyeatsworld, sayitdontsprayit, litterbug,stonecoldsaidso);
 console.log(collection); // moved push after executing objects.. hope it works..
+// notes.. still do not see a album output in the console at this time.. 
