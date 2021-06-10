@@ -18,15 +18,16 @@ console.log(addToCollection('texasLive','this guy','2012'));
 console.log(addToCollection('live','gabroniee','2006'));
 console.log(addToCollection('texas','the what','2012'));
 
-
+//logs my collection to the console using specified format..
 console.log("****** showCollection Test*******");
-function showCollection(array){
-  console.log(array.length);
-  for (let i = 0; i < array.length; i++)
-    console.log(array[i].title,'by',array[i].artist,'published in', array[i].yearPublished);
-    return true
-  }
-console.log(showCollection(collection));
+//changed name array to album to define..
+function showCollection(albumArray){
+  console.log(albumArray.length); // console log # of items in an array..
+  for (const album of albumArray){ // for of loop to log each item in an albumArray..
+    console.log (`${album.title} by ${album.artist}, published in ${album.yearPublished}`);
+  } // console results from loop to show collection of albums  using specified format..
+} // end showCollection
+showCollection(collection); //call showCollectionfunction and run collection array.. 
 
 
 function findByArtist(artist){
